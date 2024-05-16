@@ -1,3 +1,8 @@
 Time,Event,EnemyName,Energy,Distance,Bearing,Heading
-66,ScannedRobot,sample.VelociRobot,46,00,64,34,22,49
-86,ScannedRobot,sample.VelociRobot,48,00,43,61,25,80
+108,ScannedRobot,sample.VelociRobot,69,20,321,98,-0,15
+192,ScannedRobot,sample.VelociRobot,43,20,50,14,4,00
+217,ScannedRobot,sample.VelociRobot,30,60,55,01,2,21
+232,ScannedRobot,sample.VelociRobot,32,60,55,00,-0,89
+247,ScannedRobot,sample.VelociRobot,34,60,55,00,0,08
+262,ScannedRobot,sample.VelociRobot,36,60,55,00,-0,01
+277,ScannedRobot,sample.VelociRobot,40,60,55,00,0,00
