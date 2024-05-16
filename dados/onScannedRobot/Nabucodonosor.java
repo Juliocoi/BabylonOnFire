@@ -23,7 +23,7 @@ public class Nabucodonosor extends AdvancedRobot
             writer = new PrintWriter(new BufferedWriter(new OutputStreamWriter(rfos)));
 
             // Escreve o cabeçalho do CSV
-            writer.println("Time,Event,EnemyName,Energy,Distance,Bearing, Heading");
+            writer.println("Time;Event;EnemyName;Energy;Distance;Bearing;Heading");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -72,7 +72,7 @@ public class Nabucodonosor extends AdvancedRobot
 	 */
     private void logData(String eventType, String enemyName, double energy, double distance, double bearing, double heading) {
         if (writer != null) {
-            writer.printf("%d,%s,%s,%.2f,%.2f,%.2f%n", getTime(), eventType, enemyName, energy, distance, bearing, heading);
+            writer.printf("%d;%s;%s;%.2f;%.2f;%.2f%n", getTime(), eventType, enemyName, energy, distance, bearing, heading);
             writer.flush(); // Certifique-se de que os dados são escritos no arquivo imediatamente
         }
     }
