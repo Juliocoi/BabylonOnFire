@@ -1,0 +1,3 @@
+Time,Event,EnemyName,Energy,Distance,Bearing,Heading
+66,ScannedRobot,sample.VelociRobot,46,00,64,34,22,49
+86,ScannedRobot,sample.VelociRobot,48,00,43,61,25,80
