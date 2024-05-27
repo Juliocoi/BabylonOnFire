@@ -96,10 +96,9 @@ public class NabucodonosorFinal extends AdvancedRobot {
 
 		// decidindo se o robo vai atirar ou não
 		if (decision7) {
-			if (getGunHeat() == 0 && (getEnergy() - bulletPower) >= 0.2) {
-				fire(bulletPower);
-			}
+			fire(bulletPower);
 		}
+		
 		
 
 		// giro para realizar movimento espiral ao inimigo
